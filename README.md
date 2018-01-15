@@ -8,11 +8,15 @@ Node.js tersedia dari NodeSource Debian dan Ubuntu distribusi biner repositori (
 CATATAN: Jika Anda menggunakan Ubuntu Precise atau Debian Wheezy, Anda mungkin ingin membaca tentang menjalankan Node.js> = 6.x pada distro yang lebih tua .
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+
 sudo apt-get install -y nodejs
-Atau, untuk Node.js 9:
+
+## Atau, untuk Node.js 9:
 
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+
 sudo apt-get install -y nodejs
+
 Opsional : menginstal perangkat membangun
 
 Untuk mengkompilasi dan menginstal addons asli dari NPM Anda juga mungkin perlu menginstal alat membangun:
